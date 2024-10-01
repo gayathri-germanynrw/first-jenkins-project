@@ -7,6 +7,8 @@ test.describe('Test Group', () => {
         await page.goto("https://practice.cydeo.com/");
    });
 
+   
+
   test('Check() checks the radio buttons and checkboxes if they havnt been checked yet', async ({ page }) => {
     
     let checkboxesLink = page.locator("text='Checkboxes'");
